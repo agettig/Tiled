@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.0" name="objects" tilewidth="117" tileheight="129" tilecount="6" columns="0">
+<tileset version="1.10" tiledversion="1.10.0" name="objects" tilewidth="117" tileheight="129" tilecount="8" columns="0">
  <editorsettings>
   <export target="objects.json" format="json"/>
  </editorsettings>
@@ -39,5 +39,11 @@
    <property name="file" value="goal"/>
   </properties>
   <image width="96" height="96" source="map/goaldoor.png"/>
+ </tile>
+ <tile id="6">
+  <image width="64" height="64" source="map/camera_v.png"/>
+ </tile>
+ <tile id="7">
+  <image width="64" height="64" source="map/camera_h.png"/>
  </tile>
 </tileset>

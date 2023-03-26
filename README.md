@@ -18,3 +18,8 @@ To add the level to the game, just do Export as JSON and put it in the jsons fol
 Before exporting, make sure the following Map Properties are set in Custom Properties:
 - gravity (currently -15)
 - numenemies
+
+How to use Camera Tiles:
+Add a camera tile as an object, and name it "Camera". Camera tiles set the camera properties after the player passes through them. For vertical camera tiles, set the class to "v", and horizontal = "h". For vertical camera tiles, define the camera position of the top by setting "greenx1", 'greeny1", "greenx2", and "greeny2", where (x1, y1) is the top left and (x2, y2) is the bottom right of the camera view. Define the camera position of the bottom by setting "pinkx1", 'pinky1", "pinkx2", and "pinky2". If you don't set one, it will change to track the player. For horizontal, do the same but where green is left and pink is white.
+
+You can also set just one dimension (x or y) to lock scrolling on one axis. 

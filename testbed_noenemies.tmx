@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="56" height="52" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="78">
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="56" height="52" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="75">
  <editorsettings>
-  <export target="../assets/jsons/testbed.json" format="json"/>
+  <export target="../assets/jsons/testbed_noenemies.json" format="json"/>
  </editorsettings>
  <properties>
   <property name="gravity" type="float" value="-15"/>
-  <property name="numenemies" type="int" value="13"/>
+  <property name="numenemies" type="int" value="0"/>
  </properties>
  <tileset firstgid="1" source="objects.tsx"/>
  <tileset firstgid="9" source="board.tsx"/>
@@ -123,19 +123,6 @@
  </layer>
  <objectgroup id="2" name="Objects">
   <object id="24" name="Player" gid="1" x="128" y="1920" width="64" height="113"/>
-  <object id="26" name="Enemy" type="smallrobot" gid="3" x="832" y="1792" width="43" height="65"/>
-  <object id="27" name="Enemy" type="smallrobot" gid="3" x="1024" y="2176" width="43" height="65"/>
-  <object id="28" name="Enemy" type="smallrobot" gid="3" x="2048" y="1408" width="43" height="65"/>
-  <object id="29" name="Enemy" type="smallrobot" gid="3" x="2432" y="1664" width="43" height="65"/>
-  <object id="30" name="Enemy" type="smallrobot" gid="3" x="2496" y="1984" width="43" height="65"/>
-  <object id="31" name="Enemy" type="smallrobot" gid="3" x="2304" y="2624" width="43" height="65"/>
-  <object id="32" name="Enemy" type="smallrobot" gid="3" x="2624" y="2624" width="43" height="65"/>
-  <object id="33" name="Enemy" type="smallrobot" gid="3" x="1728" y="2880" width="43" height="65"/>
-  <object id="34" name="Enemy" type="smallrobot" gid="3" x="3392" y="2496" width="43" height="65"/>
-  <object id="35" name="Enemy" type="smallrobot" gid="3" x="3136" y="2496" width="43" height="65"/>
-  <object id="36" name="Enemy" type="smallrobot" gid="3" x="2368" y="640" width="43" height="65"/>
-  <object id="37" name="Enemy" type="smallrobot" gid="3" x="2560" y="640" width="43" height="65"/>
-  <object id="38" name="Enemy" type="smallrobot" gid="3" x="3072" y="640" width="43" height="65"/>
   <object id="39" name="Gum" gid="4" x="1489.12" y="1842.49" width="25" height="25"/>
   <object id="40" name="Gum" gid="4" x="2454.52" y="2450.75" width="25" height="25"/>
   <object id="41" name="Gum" gid="4" x="3129.74" y="1725.3" width="25" height="25"/>
@@ -239,6 +226,5 @@
     <property name="pinky2" type="float" value="10"/>
    </properties>
   </object>
-  <object id="75" name="Enemy" gid="3" x="3232.01" y="1908" width="43" height="65"/>
  </objectgroup>
 </map>
