@@ -1,5 +1,7 @@
 # Using Tiled for this project
 
+### Important: In Tiled Preferences, check "Resolve object types and properties" under "Export Options". Otherwise, you will get errors.
+
 ## Making a new level
 To make a new level, you can either copy the existing one and use as a template or create a new map.
 
