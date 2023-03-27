@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="56" height="52" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="78">
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="56" height="52" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="79">
  <editorsettings>
   <export target="../assets/jsons/testbed.json" format="json"/>
  </editorsettings>
  <properties>
   <property name="gravity" type="float" value="-15"/>
-  <property name="numenemies" type="int" value="13"/>
  </properties>
  <tileset firstgid="1" source="objects.tsx"/>
  <tileset firstgid="9" source="board.tsx"/>
@@ -143,7 +142,7 @@
   <object id="43" name="Gum" gid="4" x="2543.8" y="201.866" width="25" height="25"/>
   <object id="44" name="Gum" gid="4" x="3046.04" y="207.446" width="25" height="25"/>
   <object id="45" name="Exit" gid="6" x="1664" y="640" width="96" height="96"/>
-  <object id="53" name="Camera" type="v" gid="7" x="2880" y="704" width="64" height="64">
+  <object id="54" name="Camera" type="v" gid="7" x="2816" y="704" width="128" height="64">
    <properties>
     <property name="greenx1" type="float" value="32"/>
     <property name="greenx2" type="float" value="51"/>
@@ -151,15 +150,7 @@
     <property name="greeny2" type="float" value="10"/>
    </properties>
   </object>
-  <object id="54" name="Camera" type="v" gid="7" x="2816" y="704" width="64" height="64">
-   <properties>
-    <property name="greenx1" type="float" value="32"/>
-    <property name="greenx2" type="float" value="51"/>
-    <property name="greeny1" type="float" value="0"/>
-    <property name="greeny2" type="float" value="10"/>
-   </properties>
-  </object>
-  <object id="58" name="Camera" type="h" gid="8" x="576" y="1856" width="64" height="64">
+  <object id="62" name="Camera" type="h" gid="8" x="576" y="1920" width="64" height="192">
    <properties>
     <property name="pinkx1" type="float" value="9"/>
     <property name="pinkx2" type="float" value="20"/>
@@ -167,23 +158,7 @@
     <property name="pinky2" type="float" value="34"/>
    </properties>
   </object>
-  <object id="62" name="Camera" type="h" gid="8" x="576" y="1792" width="64" height="64">
-   <properties>
-    <property name="pinkx1" type="float" value="9"/>
-    <property name="pinkx2" type="float" value="20"/>
-    <property name="pinky1" type="float" value="21"/>
-    <property name="pinky2" type="float" value="34"/>
-   </properties>
-  </object>
-  <object id="63" name="Camera" type="h" gid="8" x="576" y="1920" width="64" height="64">
-   <properties>
-    <property name="pinkx1" type="float" value="9"/>
-    <property name="pinkx2" type="float" value="20"/>
-    <property name="pinky1" type="float" value="21"/>
-    <property name="pinky2" type="float" value="34"/>
-   </properties>
-  </object>
-  <object id="64" name="Camera" type="h" gid="8" x="1344" y="1856" width="64" height="64">
+  <object id="65" name="Camera" type="h" gid="8" x="1344" y="1920" width="64" height="192">
    <properties>
     <property name="greenx1" type="float" value="9"/>
     <property name="greenx2" type="float" value="20"/>
@@ -191,23 +166,7 @@
     <property name="greeny2" type="float" value="34"/>
    </properties>
   </object>
-  <object id="65" name="Camera" type="h" gid="8" x="1344" y="1792" width="64" height="64">
-   <properties>
-    <property name="greenx1" type="float" value="9"/>
-    <property name="greenx2" type="float" value="20"/>
-    <property name="greeny1" type="float" value="21"/>
-    <property name="greeny2" type="float" value="34"/>
-   </properties>
-  </object>
-  <object id="66" name="Camera" type="h" gid="8" x="1344" y="1920" width="64" height="64">
-   <properties>
-    <property name="greenx1" type="float" value="9"/>
-    <property name="greenx2" type="float" value="20"/>
-    <property name="greeny1" type="float" value="21"/>
-    <property name="greeny2" type="float" value="34"/>
-   </properties>
-  </object>
-  <object id="67" name="Camera" type="h" gid="8" x="2048" y="448" width="64" height="64">
+  <object id="74" name="Camera" type="h" gid="8" x="2048" y="640" width="64" height="256">
    <properties>
     <property name="pinkx1" type="float" value="32"/>
     <property name="pinkx2" type="float" value="51"/>
@@ -215,30 +174,5 @@
     <property name="pinky2" type="float" value="10"/>
    </properties>
   </object>
-  <object id="72" name="Camera" type="h" gid="8" x="2048" y="576" width="64" height="64">
-   <properties>
-    <property name="pinkx1" type="float" value="32"/>
-    <property name="pinkx2" type="float" value="51"/>
-    <property name="pinky1" type="float" value="0"/>
-    <property name="pinky2" type="float" value="10"/>
-   </properties>
-  </object>
-  <object id="73" name="Camera" type="h" gid="8" x="2048" y="640" width="64" height="64">
-   <properties>
-    <property name="pinkx1" type="float" value="32"/>
-    <property name="pinkx2" type="float" value="51"/>
-    <property name="pinky1" type="float" value="0"/>
-    <property name="pinky2" type="float" value="10"/>
-   </properties>
-  </object>
-  <object id="74" name="Camera" type="h" gid="8" x="2048" y="512" width="64" height="64">
-   <properties>
-    <property name="pinkx1" type="float" value="32"/>
-    <property name="pinkx2" type="float" value="51"/>
-    <property name="pinky1" type="float" value="0"/>
-    <property name="pinky2" type="float" value="10"/>
-   </properties>
-  </object>
-  <object id="75" name="Enemy" gid="3" x="3232.01" y="1908" width="43" height="65"/>
  </objectgroup>
 </map>

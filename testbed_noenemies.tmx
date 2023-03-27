@@ -5,7 +5,6 @@
  </editorsettings>
  <properties>
   <property name="gravity" type="float" value="-15"/>
-  <property name="numenemies" type="int" value="0"/>
  </properties>
  <tileset firstgid="1" source="objects.tsx"/>
  <tileset firstgid="9" source="board.tsx"/>
