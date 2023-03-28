@@ -1,5 +1,7 @@
 # Using Tiled for this project
 
+## Important: In Tiled Preferences, check "Export Tilesets" (this is a new change as of 3/28) and "Resolve object types and properties" under "Export Options". Otherwise, you will get errors.
+
 ## Making a new level
 To make a new level, you can either copy the existing one and use as a template or create a new map.
 
@@ -21,6 +23,7 @@ If you added a new object type, you will also have to export the tileset as a js
 
 Before exporting, make sure the following Map Properties are set in Custom Properties:
 - gravity (standard: -15)
+- timer (time to escape after getting orb in seconds) (default: 60)
 
 ## Adding new objects
 To add a new type of object, just go to the objects tileset (objects.tsx) and click "add tile". Add the image, then set the "class" field to the object's name in the asset directory. 
