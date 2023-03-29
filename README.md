@@ -1,6 +1,6 @@
 # Using Tiled for this project
 
-## Important: In Tiled Preferences, check "Export Tilesets" (this is a new change as of 3/28) and "Resolve object types and properties" under "Export Options". Otherwise, you will get errors.
+### Important: In Tiled Preferences, check "Export Tilesets" (this is a new change as of 3/28) and "Resolve object types and properties" under "Export Options". Otherwise, you will get errors.
 
 ## Making a new level
 To make a new level, you can either copy the existing one and use as a template or create a new map.
@@ -35,7 +35,7 @@ Camera tiles set the camera properties after the player passes through them. The
 
 Add a camera tile as an object.
 
-For vertical camera tiles, define the camera position of the top by setting "greenx1", 'greeny1", "greenx2", and "greeny2", where (x1, y1) is the top left and (x2, y2) is the bottom right of the camera view. Define the camera position of the bottom by setting "pinkx1", 'pinky1", "pinkx2", and "pinky2". Don't worry about aspect ratio - the camera will keep the same aspect ratio and zoom to fit the whole area.
+For vertical camera tiles, define the camera position of the top by adding the following custom properties for the tile and setting them: "greenx1", 'greeny1", "greenx2", and "greeny2", where (x1, y1) is the top left and (x2, y2) is the bottom right of the camera view. Define the camera position of the bottom by setting "pinkx1", 'pinky1", "pinkx2", and "pinky2". Don't worry about aspect ratio - the camera will keep the same aspect ratio and zoom to fit the whole area.
 
 For horizontal camera tiles, do the same but where green is left and pink is right. 
 
