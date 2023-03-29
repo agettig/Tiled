@@ -5,7 +5,12 @@ To make a new level, you can either copy the existing one and use as a template 
 Creating a new map: Map size should be Fixed (can be changed later), Width 64px, Height 64px
 A map should have three layers: Objects (object layer), Terrain (tile layer), and Board (tile layer). It's easier to start with the map size as Infinite and change it to Fixed in Map Properties later.
 
+<<<<<<< Updated upstream
 Add tiles for the terrain in the Terrain layer.
+=======
+## Editing a level
+Add tiles for the terrain in the Terrain layer. Then press Map -> Automap to make them look nice.
+>>>>>>> Stashed changes
 
 Add tiles for enemy paths in the Board layer. Blue = floor, Red = ceiling, Green = ladder.
 
