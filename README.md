@@ -10,9 +10,10 @@ Map properties: map size should be Fixed (once you export), Width 64px, Height 6
 Map layers: Objects (object layer), Terrain (tile layer), and Board (tile layer). 
 
 ## Editing a level
-Add tiles for the terrain in the Terrain layer. Then press Map -> Automap to make them look nice.
+Add tiles for the terrain in the Terrain layer. Then press Map -> Automap, or command M to make them look nice.
 
-Add tiles for enemy paths in the Board layer. Blue = floor, Red = ceiling, Green = ladder.
+For enemy ai, we need two board layers. Title the first "BoardGravityUp", and the second "BoardGravityDown". "Up" gravity refers to when the gravity is flipped, while "down" gravity is regular gravity.
+In these board layers, create the enemy paths according to the corresponding gravity. Use red tiles for all paths the enemy is able to traverse, including upward jumps (we currently have it so enemies can only jump up four tiles). Use green tiles to show "falling" paths; paths the robot can fall down, but can not climb back up. Use red tiles for the traversals of both gravityUp and gravityDown.
 
 Add all other objects in the Objects layer. Each of them should be a Tile Object - just click the asset you want and click on the stage. You shouldn't need to do anything else.
 
