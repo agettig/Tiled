@@ -15,7 +15,7 @@ Add tiles for the terrain in the Terrain layer. Then press Map -> Automap, or co
 For enemy ai, we need two board layers. Title the first "BoardGravityUp", and the second "BoardGravityDown". "Up" gravity refers to when the gravity is flipped, while "down" gravity is regular gravity.
 In these board layers, create the enemy paths according to the corresponding gravity. Use red tiles for all paths the enemy is able to traverse, including upward jumps (we currently have it so enemies can only jump up four tiles). Use green tiles to show "falling" paths; paths the robot can fall down, but can not climb back up. Use red tiles for the traversals of both gravityUp and gravityDown.
 
-Add all other objects in the Objects layer. Each of them should be a Tile Object - just click the asset you want and click on the stage. You shouldn't need to do anything else.
+Add all other objects in the Objects layer. Each of them should be a Tile Object - click the "orange sunset" button in the navigation bar, then just click the asset you want and click on the stage. You shouldn't need to do anything else.
 
 ## Exporting a level
 To add the level to the game, click Export as JSON and put the level in the jsons folder for the game, then add a new level json value in assets.json. If you aren't replacing an existing level, increase NUM_LEVELS in GameController.
