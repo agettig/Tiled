@@ -25,7 +25,7 @@
  <tile id="9" type="orb">
   <image width="40" height="40" source="map/orb.png"/>
  </tile>
- <tile id="10" type="Alarm">
+ <tile id="10" type="alarm">
   <image width="44" height="43" source="map/alarm.png"/>
  </tile>
 </tileset>
