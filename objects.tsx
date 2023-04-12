@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.0" name="objects" tilewidth="134" tileheight="186" tilecount="10" columns="0">
+<tileset version="1.10" tiledversion="1.10.0" name="objects" tilewidth="134" tileheight="186" tilecount="12" columns="0">
  <editorsettings>
   <export target="../assets/jsons/objects.json" format="json"/>
  </editorsettings>
@@ -33,5 +33,11 @@
  </tile>
  <tile id="12" type="largerobot">
   <image width="134" height="186" source="map/large_robot.png"/>
+ </tile>
+ <tile id="13" type="box">
+  <image width="65" height="65" source="../assets/textures/box.png"/>
+ </tile>
+ <tile id="14" type="chair">
+  <image width="65" height="90" source="../assets/textures/chair.png"/>
  </tile>
 </tileset>
