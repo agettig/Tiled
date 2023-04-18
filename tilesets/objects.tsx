@@ -31,7 +31,7 @@
  <tile id="11" type="star">
   <image width="48" height="48" source="map/star.png"/>
  </tile>
- <tile id="12" type="largerobot">
+ <tile id="12" type="large_robot">
   <image width="134" height="186" source="map/large_robot.png"/>
  </tile>
  <tile id="13" type="box">
