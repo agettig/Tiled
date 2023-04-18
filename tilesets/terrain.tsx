@@ -13,6 +13,8 @@
  <tile id="6" type="terrain"/>
  <tile id="7" type="terrain"/>
  <tile id="8" type="terrain"/>
+ <tile id="9" type="terrain"/>
+ <tile id="10" type="terrain"/>
  <tile id="11" type="terrain"/>
  <tile id="12" type="terrain"/>
  <tile id="13" type="terrain"/>
@@ -22,6 +24,8 @@
  <tile id="17" type="terrain"/>
  <tile id="18" type="terrain"/>
  <tile id="19" type="terrain"/>
+ <tile id="20" type="terrain"/>
+ <tile id="21" type="terrain"/>
  <tile id="22" type="terrain"/>
  <tile id="23" type="terrain"/>
  <tile id="24" type="terrain"/>
@@ -31,6 +35,8 @@
  <tile id="28" type="terrain"/>
  <tile id="29" type="terrain"/>
  <tile id="30" type="terrain"/>
+ <tile id="31" type="terrain"/>
+ <tile id="32" type="terrain"/>
  <tile id="33" type="terrain"/>
  <tile id="34" type="terrain"/>
  <tile id="35" type="terrain"/>
@@ -40,4 +46,6 @@
  <tile id="39" type="terrain"/>
  <tile id="40" type="terrain"/>
  <tile id="41" type="terrain"/>
+ <tile id="42" type="terrain"/>
+ <tile id="43" type="terrain"/>
 </tileset>
